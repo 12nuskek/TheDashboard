@@ -4,12 +4,14 @@
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
-    border: 1px solid red;
-    padding: 20px;
+    position:relative
+ 
 }
 
 .container{
     display: flex;
+    padding: 10px;
+    width: min-content;
 }
 
 .flex-row{
@@ -30,7 +32,7 @@
   }
   
   
-  .grid-item {
+.grid-item {
     background-color: rgb(255, 255, 255);
     border-left: 5px solid orange;
     text-align: center;
@@ -38,3 +40,67 @@
     border-radius: 5px;
 }
 
+
+#left {
+        background-color: rgb(57, 147, 214);
+        color: #ffffff;
+        padding-right: 15%;
+}
+
+#left img{
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#right{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#right img{
+    width: 5%;
+    filter: invert(0%) sepia(0%) saturate(7455%) hue-rotate(154deg) brightness(86%) contrast(98%);
+}
+
+#bell img{
+    width: 20%;
+}
+
+
+.actions-row2{
+    padding-left: 140%;
+}
+.action-item{
+    padding: 10px;
+}
+
+#search{
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
+    padding-right: 100%;
+    border: #ffffff;
+}
+
+.container.navigation-menu {
+    align-items: center;
+    padding-right: 10px;
+
+}
+
+.container.config-menu {
+    align-items: center;
+    padding-right: 10px;
+
+}
+
+#mainSection{
+    background-color: rgb(235, 235, 235);
+}
+
+img#bell {
+    width: 20%;
+}
+
+#top{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding-right: 62.5%;
+}
